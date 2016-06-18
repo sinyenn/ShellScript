@@ -1,8 +1,11 @@
 #!/bin/bash
 
-#Author:Yenn
-#Runtime:Aliyun ECS CentOS 7.0 64Bit
-#Description:Auto install tmux
+# Author:Yenn
+# Email:sinyenn@gmail.com
+# Runtime:Aliyun ECS CentOS 7.0 64Bit
+# Description:Auto install tmux
+# Reference
+# https://github.com/tmux/tmux
 
 checkResult()
 {
