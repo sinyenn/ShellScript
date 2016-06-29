@@ -21,6 +21,8 @@ wget https://github.com/libevent/libevent/releases/download/release-2.0.22-stabl
 checkResult
 tar -zxvf libevent-2.0.22-stable.tar.gz
 checkResult
+rm -rf libevent-2.0.22-stable.tar.gz
+checkResult
 cd libevent-2.0.22-stable
 checkResult
 ./configure && make
