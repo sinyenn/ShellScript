@@ -20,6 +20,8 @@ checkResult()
 # install pip
 wget https://bootstrap.pypa.io/get-pip.py
 checkResult
+python get-pip.py
+checkResult
 # install shadowsocks
 pip install shadowsocks
 checkResult

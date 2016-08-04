@@ -31,7 +31,7 @@ cd nginx-1.11.1
 checkResult
 
 #根据自己需求修改编译参数,See -> https://www.nginx.com/resources/admin-guide/installing-nginx-open-source/#configure
-./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-http_gzip_static_module
+./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-http_gzip_static_module --with-stream
 checkResult
 make
 checkResult
